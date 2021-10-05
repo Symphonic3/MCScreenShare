@@ -1,0 +1,20 @@
+name: ScreenShare
+main: net.scpuncontained.screenshare.ScreenShare
+version: 0.1
+api-version: 1.14
+author: Symphonic
+commands:
+  toggle:
+    description: enable and disable screenshare
+    usage: /toggle
+    permission: screenshare.admin
+    permission-message: No
+  resolution:
+    description: change resolution
+    usage: /resolution <x> <z>
+    permission: screenshare.admin
+    permission-message: No
+permissions:
+  screenshare.admin:
+    default: op
+    description: gay
